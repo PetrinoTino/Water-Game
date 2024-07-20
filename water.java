@@ -24,9 +24,9 @@ public class water {
                 System.out.println(player2Name + "'s water: " + player2Water);
 
                 if (isPlayer1Turn) {
-                    System.out.print(player1Name + ", choose an action (1: Fill water gun, 2: Shoot): ");
+                    System.out.print(player1Name + ", choose an action (1: Fill water gun, 2: Shoot  Shoot ): ");
                 } else {
-                    System.out.print(player2Name + ", choose an action (1: Fill water gun, 2: Shoot): ");
+                    System.out.print(player2Name + ", choose an action (1: Fill water gun, 2: Shoot  Shoot ): ");
                 }
 
                 int action = scanner.nextInt();
