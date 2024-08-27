@@ -19,6 +19,7 @@ public class water {
             int player2Water = 100;
             boolean isPlayer1Turn = true;
 
+
             while (player1Water > 0 && player2Water > 0) {
                 System.out.println("\n" + player1Name + "'s water: " + player1Water);
                 System.out.println(player2Name + "'s water: " + player2Water);
